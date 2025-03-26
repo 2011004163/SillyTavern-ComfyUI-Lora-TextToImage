@@ -14,6 +14,9 @@
 百度网盘comfyui整合包
 链接: https://pan.baidu.com/s/17vSQ17c7-X3F_KiZVZYeuw?pwd=3zie 提取码: 3zie 
 
+单独的lora文件，如果需要使用其他模型自行下载：
+链接: https://pan.baidu.com/s/1RTM-4cqJI0VxRI5L4o7SKQ?pwd=wr7b 提取码: wr7b 
+
 角色卡含世界书：
 ![image](https://github.com/user-attachments/assets/ec0dc6c3-0912-4003-8e7a-feaa1ec9b354)
 
