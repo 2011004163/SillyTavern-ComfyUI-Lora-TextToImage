@@ -4,6 +4,7 @@
 本项目实现了AI酒馆(SillyTavern)调用ComfyUI加载Lora等模型进行高级文生图，利用大语言模型批量自动化生成调用lora的SD提示词。通过全自动化流程，实现从提示词生成到ComfyUI调用的一站式图像生成解决方案。
 
 教程等待更新，点个star防止迷路
+角色卡含世界书：
 <img src="https://github.com/user-attachments/assets/0fa8d9dd-5061-4284-914b-52afd5cdce35" width="300" height="450" alt="虚境映像师角色卡(含世界书)">
 
 
