@@ -155,7 +155,7 @@
 4. 完成基础设置后，即可实现基本的文生图功能
 
 ## 九、ComfyUI与酒馆联动详细配置
-
+我的comfyui工作流示例采用了放大模型放大图像再缩小图像回原分辨率更加清晰：![image](https://github.com/user-attachments/assets/af26a85a-e97b-4acd-9852-6150c6c46446)
 ### 准备API工作流
 1. 在ComfyUI中必须打开开发者模式![image](https://github.com/user-attachments/assets/722860a2-ccf8-42d9-89aa-021d259918b1)
 
@@ -195,8 +195,9 @@
 5. 正向CLIP使用`%prompt%`变量，负向CLIP使用`%negative_prompt%`变量
 6. 变量名称必须准确无误，否则插件无法读取酒馆提供的提示词
 
-### 保存修改后的工作流
-1. 修改完成后，将内容复制回原JSON文件或保存为新文件
+### 加载修改后的工作流
+1. 修改完成后，将内容复制回插件![image](https://github.com/user-attachments/assets/4587cc28-2a23-4f4a-a10a-1043ab0bc78e)
+
 2. 即使某些参数（如调度器）没有自动修改也无需担心，保持原样即可
 
 ## 十、完成设置
@@ -362,7 +363,6 @@ sfw, 1girl, teenage girl, blonde hair:1.3, blue eyes, medium height, floral dres
 - 根据常用场景拓展智能匹配引擎分类
 - 为特定角色创建专用LoRA预设
 - 测试不同权重值，找到最佳效果
-![image](https://github.com/user-attachments/assets/af26a85a-e97b-4acd-9852-6150c6c46446)
 
 ---
 
