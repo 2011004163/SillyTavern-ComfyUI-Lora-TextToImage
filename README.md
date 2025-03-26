@@ -4,6 +4,7 @@
 
 本项目实现了AI酒馆(SillyTavern)调用ComfyUI加载Lora等模型进行高级文生图，利用大语言模型批量自动化生成调用lora的SD提示词。通过全自动化流程，实现从提示词生成到ComfyUI调用的一站式图像生成解决方案。
 ![image](https://github.com/user-attachments/assets/8e714b3c-4d1b-45f6-b940-5f52480e2be6)
+![image](https://github.com/user-attachments/assets/e7016456-2387-4a5b-b2d4-05cf384f58b5)
 
 夸克网盘comfyui整合包
 链接：https://pan.quark.cn/s/a9de87fbc839
@@ -54,14 +55,18 @@
 ### 导入角色卡和预设
 1. 将提供的角色卡导入酒馆（按照图片示例操作）![image](https://github.com/user-attachments/assets/3d28b679-8abb-4dac-9be3-b149df574dc4)
 2. 导入两个Claude破限预设（小白用户推荐直接使用这些预设）![image](https://github.com/user-attachments/assets/ae701979-6b9f-43e5-a4ea-1af7c2d7c532)
-3. 加载世界书设置
-4. 选择适合的预设即可开始使用
+3. 加载世界书设置![image](https://github.com/user-attachments/assets/9627eac6-aff1-4cac-b0e5-2d05b1eb1109)
+![image](https://github.com/user-attachments/assets/7076f704-5162-4246-936b-0c1ef0f9ede7)
+4. 选择适合的预设即可开始使用，鹿鹿预设什么情况都可以用，斯拉rbq用于nsfw。![image](https://github.com/user-attachments/assets/78988310-db73-46a5-acc6-6f12b52f3da7)
+![image](https://github.com/user-attachments/assets/78bf90a3-cb6b-4a20-ac71-1f19dff8e409)
 
 ### 生成提示词说明
 所有角色卡都能自动生成提示词，这些提示词会在剧情结束后的末尾自动生成，用于图像生成。
 成功图片示例：
-![image](https://github.com/user-attachments/assets/b9e73c3d-2dd2-43bb-94ff-03a5fbc7cbae)
-![image](https://github.com/user-attachments/assets/ba18feeb-8a55-4461-859b-a435b0ceea00)
+![image](https://github.com/user-attachments/assets/94c02487-542b-4f3e-a443-d354202b9e1d)
+![image](https://github.com/user-attachments/assets/22c3b2af-6040-4786-9df5-054d953386e7)
+![image](https://github.com/user-attachments/assets/e3bf2f17-7d47-4d1b-aa29-5d4c9761734e)
+
 
 ## 四、ComfyUI进阶教程（零基础详解）
 
