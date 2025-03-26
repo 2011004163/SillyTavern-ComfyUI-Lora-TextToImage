@@ -7,7 +7,7 @@ This project integrates SillyTavern with ComfyUI to load Lora and other models f
 
 教程等待更新 
 
-夸克网盘comfyui整合包：
+夸克网盘comfyui整合包
 链接：https://pan.quark.cn/s/a9de87fbc839
 提取码：4RTw
 
