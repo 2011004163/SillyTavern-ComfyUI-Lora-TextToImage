@@ -5,6 +5,8 @@
 
 教程等待更新，点个star防止迷路
 
+![虚境映像师角色卡(含世界书)](https://github.com/user-attachments/assets/0fa8d9dd-5061-4284-914b-52afd5cdce35)
+
 夸克网盘comfyui整合包
 链接：https://pan.quark.cn/s/a9de87fbc839
 提取码：4RTw
