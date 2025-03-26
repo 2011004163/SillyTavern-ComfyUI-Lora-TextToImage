@@ -1,0 +1,1390 @@
+{
+  "last_node_id": 67,
+  "last_link_id": 44,
+  "nodes": [
+    {
+      "id": 10,
+      "type": "CLIPSetLastLayer",
+      "pos": [
+        2900,
+        130
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "label": "CLIP",
+          "type": "CLIP",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "label": "CLIP",
+          "type": "CLIP",
+          "links": [
+            26,
+            27
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "CLIPSetLastLayer"
+      },
+      "widgets_values": [
+        -2
+      ]
+    },
+    {
+      "id": 15,
+      "type": "CLIPTextEncode",
+      "pos": [
+        3315,
+        130
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "label": "CLIP",
+          "type": "CLIP",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "label": "条件",
+          "type": "CONDITIONING",
+          "links": [
+            21
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "%prompt%"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "CLIPTextEncode",
+      "pos": [
+        3315,
+        460
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "label": "CLIP",
+          "type": "CLIP",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "label": "条件",
+          "type": "CONDITIONING",
+          "links": [
+            22
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "%negative_prompt%"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "easy loraStack",
+      "pos": [
+        1345,
+        130
+      ],
+      "size": [
+        315,
+        826
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": 34
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            33
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "Spooningv2-Illustrious_Noob.safetensors",
+        1,
+        0,
+        1,
+        "View_From_Below_Doggystyle.safetensors",
+        1,
+        0,
+        1,
+        "afterfellatio_ill.safetensors",
+        1,
+        0,
+        1,
+        "anime_screencap-IL v-pred.safetensors",
+        1,
+        0,
+        1,
+        "choke_hold_rnc_ilxl.safetensors",
+        1,
+        0,
+        1,
+        "chokehold.safetensors",
+        1,
+        0,
+        1,
+        "closedmouthfullofcum.safetensors",
+        1,
+        0,
+        1,
+        "cowgirl_grab_il-10.safetensors",
+        1,
+        0,
+        1,
+        "danglinglegs.safetensors",
+        1,
+        0,
+        1,
+        "detailed hand focus style illustriousXL v1.safetensors",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 59,
+      "type": "easy loraStack",
+      "pos": [
+        930,
+        130
+      ],
+      "size": [
+        315,
+        826
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            34
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "excessivecum.safetensors",
+        1,
+        0,
+        1,
+        "face_deepthroat_ill-10.safetensors",
+        1,
+        0,
+        1,
+        "group sex_illustrious_V1.0.safetensors",
+        1,
+        0,
+        1,
+        "guided penetration_illustrious_V1.0.safetensors",
+        1,
+        0,
+        1,
+        "holding_leash_ilxl_v1.safetensors",
+        1,
+        0,
+        1,
+        "huge_cum_ill.safetensors",
+        1,
+        0,
+        1,
+        "illustriousXL_stabilizer_v1.72.safetensors",
+        1,
+        0,
+        1,
+        "illustrious_quality_modifiers_masterpieces_v1.safetensors",
+        1,
+        0,
+        1,
+        "lactationIllustrious.safetensors",
+        1,
+        0,
+        1,
+        "legup_doggy_ill-10.safetensors",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 60,
+      "type": "easy loraStack",
+      "pos": [
+        515,
+        130
+      ],
+      "size": [
+        315,
+        826
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            35
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "midis_PovAfterKiss_V0.6[IL].safetensors",
+        1,
+        0,
+        1,
+        "midis_SexualCoaching_V0.42[IL].safetensors",
+        1,
+        0,
+        1,
+        "missionary_ill1.safetensors",
+        1,
+        0,
+        1,
+        "multiple fellatio_illustrious_V1.0.safetensors",
+        1,
+        0,
+        1,
+        "peedrinkIllustrious.safetensors",
+        1,
+        0,
+        1,
+        "penisoncheek.safetensors",
+        1,
+        0,
+        1,
+        "ponyv3_ill01_2_adamW-000017.safetensors",
+        1,
+        0,
+        1,
+        "pregnantveinyIllustrious.safetensors",
+        1,
+        0,
+        1,
+        "reversecowgirlposition.safetensors",
+        1,
+        0,
+        1,
+        "stealthfellatio.safetensors",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        100,
+        366
+      ],
+      "size": [
+        315,
+        98
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "label": "模型",
+          "type": "MODEL",
+          "links": [
+            30
+          ]
+        },
+        {
+          "name": "CLIP",
+          "label": "CLIP",
+          "type": "CLIP",
+          "links": [
+            31
+          ]
+        },
+        {
+          "name": "VAE",
+          "label": "VAE",
+          "type": "VAE",
+          "links": [
+            25
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "waiNSFWIllustrious_v120.safetensors"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "KSampler",
+      "pos": [
+        3815,
+        130
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "label": "模型",
+          "type": "MODEL",
+          "link": 20
+        },
+        {
+          "name": "positive",
+          "label": "正面条件",
+          "type": "CONDITIONING",
+          "link": 21
+        },
+        {
+          "name": "negative",
+          "label": "负面条件",
+          "type": "CONDITIONING",
+          "link": 22
+        },
+        {
+          "name": "latent_image",
+          "label": "Latent",
+          "type": "LATENT",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "label": "Latent",
+          "type": "LATENT",
+          "links": [
+            24
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        442036637142924,
+        "randomize",
+        30,
+        5,
+        "euler_ancestral",
+        "karras",
+        1
+      ]
+    },
+    {
+      "id": 51,
+      "type": "easy loraStackApply",
+      "pos": [
+        2642.738037109375,
+        100.50251007080078
+      ],
+      "size": [
+        210,
+        66
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆可选",
+          "type": "LORA_STACK",
+          "link": 29
+        },
+        {
+          "name": "model",
+          "label": "模型",
+          "type": "MODEL",
+          "link": 30
+        },
+        {
+          "name": "optional_clip",
+          "label": "CLIP(可选)",
+          "type": "CLIP",
+          "shape": 7,
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "label": "模型",
+          "type": "MODEL",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "clip",
+          "label": "CLIP",
+          "type": "CLIP",
+          "links": [
+            19
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStackApply"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 56,
+      "type": "easy loraStack",
+      "pos": [
+        2296.64111328125,
+        125.71682739257812
+      ],
+      "size": [
+        315,
+        826
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "AIイラストおじさん.safetensors",
+        1,
+        0,
+        1,
+        "AfterSexBreakV2.safetensors",
+        1,
+        0,
+        1,
+        "Breasts_Apart_Illustrious.safetensors",
+        1,
+        0,
+        1,
+        "Bukkake Excessive Cum (Illustrious) v1.safetensors",
+        1,
+        0,
+        1,
+        "Defeatedwaifu_Illustrious.safetensors",
+        1,
+        0,
+        1,
+        "LapLyingBlowjob-v2_Illustrious.safetensors",
+        1,
+        0,
+        1,
+        "Leeoekakiiiii.safetensors",
+        1,
+        0,
+        1,
+        "Midis_Swallowing2[IL].safetensors",
+        1,
+        0,
+        1,
+        "NSFW_uterus_v2.safetensors",
+        1,
+        0,
+        1,
+        "Ohogao_illustrious_v1.safetensors",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 64,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        3670.888671875,
+        -285.498046875
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "label": "放大模型",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "R-ESRGAN 4x+ Anime6B.pth"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "EmptyLatentImage",
+      "pos": [
+        3989.73486328125,
+        -87.29827117919922
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "label": "宽度",
+          "type": "INT",
+          "pos": [
+            10,
+            36
+          ],
+          "widget": {
+            "name": "width"
+          },
+          "link": 43
+        },
+        {
+          "name": "height",
+          "label": "高度",
+          "type": "INT",
+          "pos": [
+            10,
+            60
+          ],
+          "widget": {
+            "name": "height"
+          },
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "label": "Latent",
+          "type": "LATENT",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 65,
+      "type": "ImageScale",
+      "pos": [
+        4395.54296875,
+        -294.3473205566406
+      ],
+      "size": [
+        315,
+        170
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "label": "图像",
+          "type": "IMAGE",
+          "link": 41
+        },
+        {
+          "name": "width",
+          "label": "宽度",
+          "type": "INT",
+          "pos": [
+            10,
+            60
+          ],
+          "widget": {
+            "name": "width"
+          },
+          "link": 39
+        },
+        {
+          "name": "height",
+          "label": "高度",
+          "type": "INT",
+          "pos": [
+            10,
+            84
+          ],
+          "widget": {
+            "name": "height"
+          },
+          "link": 40
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "label": "图像",
+          "type": "IMAGE",
+          "links": [
+            42
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "ImageScale"
+      },
+      "widgets_values": [
+        "lanczos",
+        512,
+        512,
+        "disabled"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "easy loraStack",
+      "pos": [
+        100,
+        594
+      ],
+      "size": [
+        315,
+        826
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "straddling-paizuri-illustriousxl-lora-nochekaiser.safetensors",
+        1,
+        0,
+        1,
+        "sword_swallowing_position_swoswalpo.safetensors",
+        1,
+        0,
+        1,
+        "takeda_hiromitsu_style_illustrious_goofy.safetensors",
+        1,
+        0,
+        1,
+        "testicle licking_illustrious_V1.0.safetensors",
+        1,
+        0,
+        1,
+        "testiclesucking.safetensors",
+        1,
+        0,
+        1,
+        "xray.safetensors",
+        1,
+        0,
+        1,
+        "zzz-v6-illustrious.safetensors",
+        1,
+        0,
+        1,
+        "None",
+        1,
+        0,
+        1,
+        "None",
+        1,
+        0,
+        1,
+        "None",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 57,
+      "type": "easy loraStack",
+      "pos": [
+        1673.5501708984375,
+        147.70510864257812
+      ],
+      "size": [
+        608.660400390625,
+        826
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "label": "LoRA堆（可选）",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora_stack",
+          "label": "LoRA堆",
+          "type": "LORA_STACK",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "3e84b8cd77719341adc71b08b5789bdb07b1a543",
+        "Node name for S&R": "easy loraStack"
+      },
+      "widgets_values": [
+        true,
+        "advanced",
+        10,
+        "POVHeadUnderClothes-Illustrious.safetensors",
+        1,
+        0,
+        1,
+        "POVLapLyingBlowjob_Handjob_Fingering_Illustrious.safetensors",
+        1,
+        0,
+        1,
+        "POV_SEX.safetensors",
+        1,
+        0,
+        1,
+        "POV_Thighjob_on_Top_ILLUSTRIOUS.safetensors",
+        1,
+        0,
+        1,
+        "Penis_Worship_IL.safetensors",
+        1,
+        0,
+        1,
+        "Pov_Blowjob__Titjob__Handjob_Illustrious-000005.safetensors",
+        1,
+        0,
+        1,
+        "Pov_Cowgirl_Looking_Down_Illustrious-000005.safetensors",
+        1,
+        0,
+        1,
+        "Pov_Lying_on_Top_Illustrious-000005.safetensors",
+        1,
+        0,
+        1,
+        "Pov_Standing_Doggy_Style__Missionary_looking_up_Illustrious-000005.safetensors",
+        1,
+        0,
+        1,
+        "Pov_sex_looking_down_Illustrious-000005.safetensors",
+        1,
+        0,
+        5.88
+      ]
+    },
+    {
+      "id": 67,
+      "type": "Primitive integer [Crystools]",
+      "pos": [
+        3487.02099609375,
+        -45.58514404296875
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "int",
+          "label": "整数",
+          "type": "INT",
+          "links": [
+            40,
+            44
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-Crystools",
+        "ver": "576b44b9b79e3bf4b5d50457a28924d89a42e7e1",
+        "Node name for S&R": "Primitive integer [Crystools]"
+      },
+      "widgets_values": [
+        1024
+      ]
+    },
+    {
+      "id": 63,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        4542.42919921875,
+        50.65138244628906
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "label": "放大模型",
+          "type": "UPSCALE_MODEL",
+          "link": 37
+        },
+        {
+          "name": "image",
+          "label": "图像",
+          "type": "IMAGE",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "label": "图像",
+          "type": "IMAGE",
+          "links": [
+            41
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 14,
+      "type": "VAEDecodeTiled",
+      "pos": [
+        4157.02880859375,
+        222.40921020507812
+      ],
+      "size": [
+        315,
+        150
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "label": "Latent",
+          "type": "LATENT",
+          "link": 24
+        },
+        {
+          "name": "vae",
+          "label": "VAE",
+          "type": "VAE",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "label": "图像",
+          "type": "IMAGE",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "VAEDecodeTiled"
+      },
+      "widgets_values": [
+        512,
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "id": 39,
+      "type": "SaveImage",
+      "pos": [
+        4850.27197265625,
+        87.89093780517578
+      ],
+      "size": [
+        315,
+        270
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "label": "图像",
+          "type": "IMAGE",
+          "link": 42
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.23",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "Primitive integer [Crystools]",
+      "pos": [
+        3490.0166015625,
+        -162.83119201660156
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "int",
+          "label": "整数",
+          "type": "INT",
+          "links": [
+            39,
+            43
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-Crystools",
+        "ver": "576b44b9b79e3bf4b5d50457a28924d89a42e7e1",
+        "Node name for S&R": "Primitive integer [Crystools]"
+      },
+      "widgets_values": [
+        1024
+      ]
+    }
+  ],
+  "links": [
+    [
+      19,
+      51,
+      1,
+      10,
+      0,
+      "CLIP"
+    ],
+    [
+      20,
+      51,
+      0,
+      11,
+      0,
+      "MODEL"
+    ],
+    [
+      21,
+      15,
+      0,
+      11,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      22,
+      17,
+      0,
+      11,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      23,
+      12,
+      0,
+      11,
+      3,
+      "LATENT"
+    ],
+    [
+      24,
+      11,
+      0,
+      14,
+      0,
+      "LATENT"
+    ],
+    [
+      25,
+      13,
+      2,
+      14,
+      1,
+      "VAE"
+    ],
+    [
+      26,
+      10,
+      0,
+      15,
+      0,
+      "CLIP"
+    ],
+    [
+      27,
+      10,
+      0,
+      17,
+      0,
+      "CLIP"
+    ],
+    [
+      29,
+      56,
+      0,
+      51,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      30,
+      13,
+      0,
+      51,
+      1,
+      "MODEL"
+    ],
+    [
+      31,
+      13,
+      1,
+      51,
+      2,
+      "CLIP"
+    ],
+    [
+      32,
+      57,
+      0,
+      56,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      33,
+      58,
+      0,
+      57,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      34,
+      59,
+      0,
+      58,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      35,
+      60,
+      0,
+      59,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      36,
+      61,
+      0,
+      60,
+      0,
+      "LORA_STACK"
+    ],
+    [
+      37,
+      64,
+      0,
+      63,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      38,
+      14,
+      0,
+      63,
+      1,
+      "IMAGE"
+    ],
+    [
+      39,
+      66,
+      0,
+      65,
+      1,
+      "INT"
+    ],
+    [
+      40,
+      67,
+      0,
+      65,
+      2,
+      "INT"
+    ],
+    [
+      41,
+      63,
+      0,
+      65,
+      0,
+      "IMAGE"
+    ],
+    [
+      42,
+      65,
+      0,
+      39,
+      0,
+      "IMAGE"
+    ],
+    [
+      43,
+      66,
+      0,
+      12,
+      0,
+      "INT"
+    ],
+    [
+      44,
+      67,
+      0,
+      12,
+      1,
+      "INT"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.0152559799477088,
+      "offset": [
+        -2502.3580955570883,
+        739.9179202378618
+      ]
+    }
+  },
+  "version": 0.4
+}
