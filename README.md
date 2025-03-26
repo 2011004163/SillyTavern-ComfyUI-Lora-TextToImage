@@ -1,10 +1,9 @@
 # SillyTavern-ComfyUI-Lora-TextToImage: AI酒馆驱动的高级文生图系统 - 基于大语言模型的批量自动化SD提示词生成
 # SillyTavern-ComfyUI-Lora-TextToImage: Advanced AI-Powered Image Generation with LLM-Automated SD Prompts
 
-本项目实现了AI酒馆(SillyTavern)调用ComfyUI加载Lora等模型进行高级文生图，利用大语言模型批量自动化生成调用lora的SD提示词。通过全自动化流程，实现从提示词生成到ComfyUI调用的一站式图像生成解决方案。
 
-角色卡含世界书：
-<img src="https://github.com/user-attachments/assets/0fa8d9dd-5061-4284-914b-52afd5cdce35" width="300" height="450" alt="虚境映像师角色卡(含世界书)">
+本项目实现了AI酒馆(SillyTavern)调用ComfyUI加载Lora等模型进行高级文生图，利用大语言模型批量自动化生成调用lora的SD提示词。通过全自动化流程，实现从提示词生成到ComfyUI调用的一站式图像生成解决方案。
+![image](https://github.com/user-attachments/assets/8e714b3c-4d1b-45f6-b940-5f52480e2be6)
 
 夸克网盘comfyui整合包
 链接：https://pan.quark.cn/s/a9de87fbc839
@@ -12,6 +11,9 @@
 
 百度网盘comfyui整合包
 链接: https://pan.baidu.com/s/17vSQ17c7-X3F_KiZVZYeuw?pwd=3zie 提取码: 3zie 
+
+角色卡含世界书：
+![image](https://github.com/user-attachments/assets/ec0dc6c3-0912-4003-8e7a-feaa1ec9b354)
 
 # ComfyUI整合包使用教程（详细版）
 
@@ -57,6 +59,9 @@
 
 ### 生成提示词说明
 所有角色卡都能自动生成提示词，这些提示词会在剧情结束后的末尾自动生成，用于图像生成。
+成功图片示例：
+![image](https://github.com/user-attachments/assets/b9e73c3d-2dd2-43bb-94ff-03a5fbc7cbae)
+![image](https://github.com/user-attachments/assets/ba18feeb-8a55-4461-859b-a435b0ceea00)
 
 ## 四、ComfyUI进阶教程（零基础详解）
 
