@@ -35,23 +35,23 @@
 
 ### 配置篡改猴与酒馆连接
 1. 安装并启用篡改猴插件后，刷新酒馆页面
-2. 在酒馆界面左下角会出现"文生图设置"按钮
-3. 点击"启动脚本"，在模式选择中选择"ComfyUI"
-4. 在"SD OR COMFYUI URL"输入框中粘贴ComfyUI地址：`http://127.0.0.1:8200`
+2. 在酒馆界面左下角会出现"文生图设置"按钮![image](https://github.com/user-attachments/assets/0c3786f0-0b60-4bb9-b6c7-563ac65ce5a4)
+3. 点击"启动脚本"，在模式选择中选择"ComfyUI"![image](https://github.com/user-attachments/assets/e9b3cb11-5a23-41ff-b4ef-90b1295f9b93)
+4. 在"SD OR COMFYUI URL"输入框中粘贴ComfyUI地址：`http://127.0.0.1:8200`![image](https://github.com/user-attachments/assets/9812b63f-dab6-47a7-9cdf-c522b0d3589b)
 5. 点击"连接"按钮建立连接
 
 ### 导入API配置
-1. 如果你下载的是整合包，找到"Lora堆文生图API"文件
+1. 如果你下载的是整合包，找到"Lora堆文生图API"文件![image](https://github.com/user-attachments/assets/e67a755d-0daa-4280-b8b4-9662ba037749)
 2. 将文件中的所有代码完整复制
-3. 粘贴到插件界面的代码输入框中
+3. 粘贴到插件界面的代码输入框中![image](https://github.com/user-attachments/assets/57e55118-7989-46d0-b1cc-a5c6d90e8c75)
 4. 按照提供的图片示例设置相关参数
 5. 点击"保存设置"按钮完成配置
 
 ## 三、酒馆角色配置
 
 ### 导入角色卡和预设
-1. 将提供的角色卡导入酒馆（按照图片示例操作）
-2. 导入两个Claude破限预设（小白用户推荐直接使用这些预设）
+1. 将提供的角色卡导入酒馆（按照图片示例操作）![image](https://github.com/user-attachments/assets/3d28b679-8abb-4dac-9be3-b149df574dc4)
+2. 导入两个Claude破限预设（小白用户推荐直接使用这些预设）![image](https://github.com/user-attachments/assets/ae701979-6b9f-43e5-a4ea-1af7c2d7c532)
 3. 加载世界书设置
 4. 选择适合的预设即可开始使用
 
