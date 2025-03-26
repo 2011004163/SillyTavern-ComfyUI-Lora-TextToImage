@@ -1,9 +1,10 @@
-# SillyTavern-ComfyUI-Lora-TextToImage: AI酒馆驱动的高级文生图系统 - 基于大语言模型的批量自动化SD提示词生成
+![image](https://github.com/user-attachments/assets/b081b686-3d49-4961-9f65-169e9af2f704)# SillyTavern-ComfyUI-Lora-TextToImage: AI酒馆驱动的高级文生图系统 - 基于大语言模型的批量自动化SD提示词生成
 # SillyTavern-ComfyUI-Lora-TextToImage: Advanced AI-Powered Image Generation with LLM-Automated SD Prompts
 
 
 本项目实现了AI酒馆(SillyTavern)调用ComfyUI加载Lora等模型进行高级文生图，利用大语言模型批量自动化生成调用lora的SD提示词。通过全自动化流程，实现从提示词生成到ComfyUI调用的一站式图像生成解决方案。
 ![image](https://github.com/user-attachments/assets/8e714b3c-4d1b-45f6-b940-5f52480e2be6)
+![image](https://github.com/user-attachments/assets/02ae6cc5-098e-40f2-b38d-3dbf4f709a28)
 ![image](https://github.com/user-attachments/assets/e7016456-2387-4a5b-b2d4-05cf384f58b5)
 
 夸克网盘comfyui整合包
@@ -17,6 +18,7 @@
 ![image](https://github.com/user-attachments/assets/ec0dc6c3-0912-4003-8e7a-feaa1ec9b354)
 
 # ComfyUI整合包使用教程（详细版）
+旧版本前端切换![image](https://github.com/user-attachments/assets/cffe32f8-32a1-4457-98a8-f9076a103df5)
 
 ## 一、基础安装与启动
 
@@ -73,12 +75,15 @@
 ### ComfyUI基础安装
 1. ComfyUI官方版本下载地址：[GitHub ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 2. 下载便携包可以直接运行，无需复杂安装
+![image](https://github.com/user-attachments/assets/fb7f24c5-f0bd-4549-a2e8-b4f2b1d10487)
 
 ### 必备插件：ComfyUI-Manager安装
 1. Manager管理器是必装插件：[ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 2. 安装方法：
    - 首先确保已安装Git
    - 进入`ComfyUI/custom_nodes`目录，打开命令行
+     ![image](https://github.com/user-attachments/assets/5c359434-432a-47e8-91e0-20a429e31d22)
+     ![image](https://github.com/user-attachments/assets/cf926ea4-52b3-489e-b6b9-2fea206cc805)
    - 执行: `git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager`
 3. 安装依赖（在ComfyUI启动目录执行）：
    ```
@@ -90,14 +95,16 @@
 
 ### 工作流导入与节点管理
 1. 在ComfyUI界面可直接拖入工作流文件查看所有节点
-2. 如果出现红色警告表示缺少节点，需要安装
-3. 使用Manager安装缺失节点：在界面中按照图示操作进行安装
-4. 安装完成后重启ComfyUI以激活所有节点
+2. ![image](https://github.com/user-attachments/assets/0e40074b-a450-4265-8749-041ab2a3e6f4)
+3. 如果出现红色警告表示缺少节点，需要安装
+4. 使用Manager安装缺失节点：在界面中按照图示操作进行安装![image](https://github.com/user-attachments/assets/7d3ca267-8026-40ec-a6d6-07d021ba8eda)
+5. 安装完成后重启ComfyUI以激活所有节点
 
 ## 五、模型详解
-
+下载可以在 https://civitai.com/models
 ### Checkpoint模型
-1. Checkpoint是生成图像的核心模型
+1. Checkpoint是生成图像的核心模型![image](https://github.com/user-attachments/assets/cd1549ff-8537-49d1-81a9-f0ad2f4f4a54)
+
 2. 本项目推荐使用Illustrious模型（SDXL衍生模型）：[Illustrious模型下载](https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl?modelVersionId=1490781)
 3. 大多数现代Checkpoint已集成VAE模型
 4. 如果没有集成VAE，需要额外下载与checkpoint类型匹配的VAE模型
@@ -105,7 +112,8 @@
 
 ### 模型类型对应关系
 1. 选择LoRA和Embeddings时必须与Checkpoint模型类型匹配
-   - 例如：使用Illustrious模型时应选择Illustrious或SDXL兼容的LoRA
+   - 例如：使用Illustrious模型时应选择Illustrious或SDXL兼容的LoRA![image](https://github.com/user-attachments/assets/3552390a-f670-40fe-a28a-2c0dfe0fd3c8)
+
    - 虽然某些跨类型组合可能运行，但效果通常不佳
 2. 模型类型主要分为：SD1.5、SDXL、FLUX等，不同类型间不完全兼容
 
@@ -149,18 +157,22 @@
 ## 九、ComfyUI与酒馆联动详细配置
 
 ### 准备API工作流
-1. 在ComfyUI中必须打开开发者模式
-2. 使用API格式保存当前工作流
+1. 在ComfyUI中必须打开开发者模式![image](https://github.com/user-attachments/assets/722860a2-ccf8-42d9-89aa-021d259918b1)
+
+2. 使用API格式保存当前工作流![image](https://github.com/user-attachments/assets/da890eda-b1ea-4ea8-8905-3439ed5f8f55)
 
 ### 修改API工作流
-1. 使用文本编辑器打开保存的JSON文件
-2. 复制全部内容到酒馆文生图插件中
+1. 使用文本编辑器打开保存的JSON文件![image](https://github.com/user-attachments/assets/6bd42517-50ef-40cf-974d-763b5097feec)
+
+2. 复制全部内容到酒馆文生图插件中![image](https://github.com/user-attachments/assets/7d3ebe4f-d987-445c-9807-b791aaf00661)
+
 3. 点击"简易修改"按钮，插件会自动修改部分参数以便于酒馆控制
 
 ### 修改CLIP编码器（关键步骤）
 1. 篡改猴插件脚本不会自动将提示词设置为变量，需要手动修改
 2. 找到正向和负向CLIP编码器节点
-3. 将提示词部分修改为变量格式：
+3. 将提示词部分修改为变量格式：![image](https://github.com/user-attachments/assets/4af427de-fb88-4f59-9ba7-8f0671fa0e74)
+
    ```json
    "15": {
      "inputs": {
@@ -198,7 +210,7 @@
 
 
 # 虚境映像师 v3.0 增强版 详细原理教程
-
+![image](https://github.com/user-attachments/assets/d180468c-9661-41ac-a821-4cdea970c903)
 ## 一、原理解析
 
 虚境映像师 v3.0 增强版是一种高级提示词生成系统，设计用于与AI绘图引擎(如ComfyUI)无缝集成。其核心工作原理如下：
@@ -212,6 +224,7 @@
 4. **代码块包装**：使用代码块语法包装最终提示词，避免格式问题和HTML标签错误解析
 
 ## 二、预设思维链集成（核心步骤）
+![image](https://github.com/user-attachments/assets/52c1e8cb-ca5a-4b84-806f-14c48affe565)
 
 ### 1. 关键指令
 
@@ -230,6 +243,7 @@
 - 这是确保功能稳定性的关键 - 思维链集成意味着模型会将此作为思考过程的一部分，而非临时指令
 
 ## 三、LoRA列表配置（世界书部分）
+![image](https://github.com/user-attachments/assets/e98dbec1-9811-406a-88f2-0ce7fd24acfe)
 
 ## 配置自己的lora参考文件 AI绘画LORA库完整触发词对照表  Civital_Lora对应标题
 
@@ -348,6 +362,7 @@ sfw, 1girl, teenage girl, blonde hair:1.3, blue eyes, medium height, floral dres
 - 根据常用场景拓展智能匹配引擎分类
 - 为特定角色创建专用LoRA预设
 - 测试不同权重值，找到最佳效果
+![image](https://github.com/user-attachments/assets/af26a85a-e97b-4acd-9852-6150c6c46446)
 
 ---
 
