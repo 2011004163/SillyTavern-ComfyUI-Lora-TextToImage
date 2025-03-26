@@ -28,7 +28,7 @@
 ## 二、篡改猴插件安装与配置（关键步骤）
 
 ### 安装篡改猴插件
-1. 通过Chrome应用商店安装篡改猴插件：[篡改猴测试版](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4%E6%B5%8B%E8%AF%95%E7%89%88/gcalenpjmijncebpfijmoaglllgpjagf?hl=zh-CN&utm_source=ext_sidebar)
+1. 通过自己的浏览器扩展安装篡改猴插件
 2. **重要:** 必须打开浏览器的开发者模式，给予插件所需权限
 3. 安装完成后一定要重启浏览器使插件生效
 4. 如有疑问可参考[插件作者文档](https://gxcgf4l6b2y.feishu.cn/docx/XDo7dLpvhov6AexuLu3c8mpynSC)
