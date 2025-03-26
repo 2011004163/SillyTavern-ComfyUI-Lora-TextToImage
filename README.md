@@ -5,7 +5,7 @@
 
 This project integrates SillyTavern with ComfyUI to load Lora and other models for advanced text-to-image generation. It leverages large language models to automatically generate optimized SD prompts for Lora models in batch processing. The system achieves end-to-end automation from prompt generation to ComfyUI execution for streamlined image creation.
 
-教程等待更新 
+教程等待更新，点个star防止迷路
 
 夸克网盘comfyui整合包
 链接：https://pan.quark.cn/s/a9de87fbc839
