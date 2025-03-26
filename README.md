@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b081b686-3d49-4961-9f65-169e9af2f704)# SillyTavern-ComfyUI-Lora-TextToImage: AI酒馆驱动的高级文生图系统 - 基于大语言模型的批量自动化SD提示词生成
+# SillyTavern-ComfyUI-Lora-TextToImage: AI酒馆驱动的高级文生图系统 - 基于大语言模型的批量自动化SD提示词生成
 # SillyTavern-ComfyUI-Lora-TextToImage: Advanced AI-Powered Image Generation with LLM-Automated SD Prompts
 
 
