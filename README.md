@@ -40,7 +40,7 @@
 2. **重要:** 必须打开浏览器的开发者模式，给予插件所需权限
 3. 安装完成后一定要重启浏览器使插件生效
 4. 如有疑问可参考[插件作者文档](https://gxcgf4l6b2y.feishu.cn/docx/XDo7dLpvhov6AexuLu3c8mpynSC)
-
+我用的脚本下载：![image](https://github.com/user-attachments/assets/f9da5921-3993-4174-8a6e-ddad0f764520)
 ### 配置篡改猴与酒馆连接
 1. 安装并启用篡改猴插件后，刷新酒馆页面
 2. 在酒馆界面左下角会出现"文生图设置"按钮![image](https://github.com/user-attachments/assets/0c3786f0-0b60-4bb9-b6c7-563ac65ce5a4)
