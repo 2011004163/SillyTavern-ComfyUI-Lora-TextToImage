@@ -115,8 +115,7 @@
 
 ### 模型类型对应关系
 1. 选择LoRA和Embeddings时必须与Checkpoint模型类型匹配
-   - 例如：使用Illustrious模型时应选择Illustrious或SDXL兼容的LoRA![image](https://github.com/user-attachments/assets/3552390a-f670-40fe-a28a-2c0dfe0fd3c8)
-
+   - 例如：使用Illustrious模型时应选择Illustrious或SDXL兼容的LoRA!
    - 虽然某些跨类型组合可能运行，但效果通常不佳
 2. 模型类型主要分为：SD1.5、SDXL、FLUX等，不同类型间不完全兼容
 
