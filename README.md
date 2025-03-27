@@ -204,6 +204,10 @@
 2. 即使某些参数（如调度器）没有自动修改也无需担心，保持原样即可
 
 ## 十、完成设置
+使用整合包的可以在通用正负面启动embeddings模型，
+![image](https://github.com/user-attachments/assets/66d04232-b712-489d-b085-9abec3f06bb7)
+正面通用提示词：embedding:positive\IllusP0s,
+负面通用提示词：embedding:Illustrious\negative\IllusN3g, 
 
 1. 完成上述所有步骤后，酒馆将成功连接到ComfyUI
 2. 在酒馆中进行对话时，会根据上下文自动生成提示词
@@ -214,10 +218,15 @@
 
 
 # 虚境映像师 v3.0 增强版 详细原理教程
-![image](https://github.com/user-attachments/assets/d180468c-9661-41ac-a821-4cdea970c903)
+添加方法：
+![image](https://github.com/user-attachments/assets/88dc230a-d26e-4328-ad1b-18728551da6f)
+![image](https://github.com/user-attachments/assets/fdd3c972-1fd1-4fa7-bbc0-882aeadcca7c)
+![image](https://github.com/user-attachments/assets/23f54bd0-3b80-462b-aca9-9d66af5579bf)
+
 ## 一、原理解析
 
 虚境映像师 v3.0 增强版是一种高级提示词生成系统，设计用于与AI绘图引擎(如ComfyUI)无缝集成。其核心工作原理如下：
+
 
 1. **标签包装机制**：使用 `<tags_generation_guidance>` 和 `</tags_generation_guidance>` 标记将提示词包装成一个整体，使大语言模型理解这是需要特殊处理的内容块
 
@@ -247,8 +256,6 @@
 - 这是确保功能稳定性的关键 - 思维链集成意味着模型会将此作为思考过程的一部分，而非临时指令
 
 ## 三、LoRA列表配置（世界书部分）
-![image](https://github.com/user-attachments/assets/e98dbec1-9811-406a-88f2-0ce7fd24acfe)
-
 ## 配置自己的lora参考文件 AI绘画LORA库完整触发词对照表  Civital_Lora对应标题
 
 ### 1. 表格格式配置
