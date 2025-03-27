@@ -222,6 +222,9 @@
 ![image](https://github.com/user-attachments/assets/88dc230a-d26e-4328-ad1b-18728551da6f)
 ![image](https://github.com/user-attachments/assets/fdd3c972-1fd1-4fa7-bbc0-882aeadcca7c)
 ![image](https://github.com/user-attachments/assets/23f54bd0-3b80-462b-aca9-9d66af5579bf)
+保存完了还要连接：
+
+![image](https://github.com/user-attachments/assets/ee4b9a08-04b8-465e-bef2-3aa92e2e956f)
 
 ## 一、原理解析
 
