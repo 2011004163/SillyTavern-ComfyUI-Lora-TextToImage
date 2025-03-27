@@ -11,8 +11,7 @@
 链接：https://pan.quark.cn/s/a9de87fbc839
 提取码：4RTw
 
-百度网盘comfyui整合包
-链接: https://pan.baidu.com/s/17vSQ17c7-X3F_KiZVZYeuw?pwd=3zie 提取码: 3zie 
+
 
 单独的lora文件，如果需要使用其他模型自行下载：
 链接: https://pan.baidu.com/s/1RTM-4cqJI0VxRI5L4o7SKQ?pwd=wr7b 提取码: wr7b 
