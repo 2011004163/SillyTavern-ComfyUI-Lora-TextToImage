@@ -11,7 +11,7 @@
 链接：https://pan.quark.cn/s/a9de87fbc839
 提取码：4RTw
 
-
+百度网盘整合包重新上传中
 
 单独的lora文件，如果需要使用其他模型自行下载：
 链接: https://pan.baidu.com/s/1RTM-4cqJI0VxRI5L4o7SKQ?pwd=wr7b 提取码: wr7b 
