@@ -64,6 +64,10 @@
 ![image](https://github.com/user-attachments/assets/7076f704-5162-4246-936b-0c1ef0f9ede7)
 4. 选择适合的预设即可开始使用，鹿鹿预设什么情况都可以用，斯拉rbq用于nsfw。![image](https://github.com/user-attachments/assets/78988310-db73-46a5-acc6-6f12b52f3da7)
 ![image](https://github.com/user-attachments/assets/78bf90a3-cb6b-4a20-ac71-1f19dff8e409)
+使用整合包的可以在通用正负面启动embeddings模型，
+![image](https://github.com/user-attachments/assets/66d04232-b712-489d-b085-9abec3f06bb7)
+正面通用提示词：embedding:positive\IllusP0s,
+负面通用提示词：embedding:Illustrious\negative\IllusN3g,
 
 ### 生成提示词说明
 所有角色卡都能自动生成提示词，这些提示词会在剧情结束后的末尾自动生成，用于图像生成。
@@ -203,11 +207,6 @@
 2. 即使某些参数（如调度器）没有自动修改也无需担心，保持原样即可
 
 ## 十、完成设置
-使用整合包的可以在通用正负面启动embeddings模型，
-![image](https://github.com/user-attachments/assets/66d04232-b712-489d-b085-9abec3f06bb7)
-正面通用提示词：embedding:positive\IllusP0s,
-负面通用提示词：embedding:Illustrious\negative\IllusN3g, 
-
 1. 完成上述所有步骤后，酒馆将成功连接到ComfyUI
 2. 在酒馆中进行对话时，会根据上下文自动生成提示词
 3. 这些提示词会传递给ComfyUI生成对应的图像
