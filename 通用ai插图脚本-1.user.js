@@ -12,7 +12,7 @@
 // @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
 // @connect       *
-// @connect      http://127.0.0.1:8193/
+// @connect      http://127.0.0.1:8200/
 // @connect      novelai.net
 // @match        *://*/*
 // @description  Save user settings
