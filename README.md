@@ -52,7 +52,8 @@
 1. 如果你下载的是整合包，找到"Lora堆文生图API"文件![image](https://github.com/user-attachments/assets/e67a755d-0daa-4280-b8b4-9662ba037749)
 2. 将文件中的所有代码完整复制
 3. 粘贴到插件界面的代码输入框中![image](https://github.com/user-attachments/assets/57e55118-7989-46d0-b1cc-a5c6d90e8c75)
-4. 按照提供的图片示例设置相关参数
+4. 按照提供的图片示例设置相关参数![image](https://github.com/user-attachments/assets/4768c775-4e1b-4c2f-a914-8e3ad175e97d)
+
 5. 点击"保存设置"按钮完成配置
 
 ## 三、酒馆角色配置
