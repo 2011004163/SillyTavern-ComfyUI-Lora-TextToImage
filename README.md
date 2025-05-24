@@ -7,10 +7,6 @@
 ![image](https://github.com/user-attachments/assets/02ae6cc5-098e-40f2-b38d-3dbf4f709a28)
 ![image](https://github.com/user-attachments/assets/e7016456-2387-4a5b-b2d4-05cf384f58b5)
 
-夸克网盘comfyui整合包
-链接：https://pan.quark.cn/s/a9de87fbc839
-提取码：4RTw
-
 百度网盘ComfyUI整合包
 链接: https://pan.baidu.com/s/1Taj7UZgVG40X_UlV0IoDLA?pwd=3imy 提取码: 3imy 
 
